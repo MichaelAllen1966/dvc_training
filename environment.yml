@@ -1,0 +1,16 @@
+name: dvc
+channels:
+  - defaults
+dependencies:
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - python=3.10
+  - pip:
+    - dvc
+    - dvc-gdrive
+    - dvc[gs]
+    - cryptography
